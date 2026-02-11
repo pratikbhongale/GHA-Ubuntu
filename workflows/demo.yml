@@ -1,9 +1,0 @@
-name: Demo-CI/CD pipeline from ubuntu machine
-on: workflow_dispatch
-jobs:
-  demo:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Default yaml file
-        run: echo "Hello"
-
