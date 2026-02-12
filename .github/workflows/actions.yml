@@ -1,0 +1,10 @@
+name: How to use actions
+on: push
+jobs:
+ action-demo:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout code
+     uses: actions/checkout@v4
+   - name: Print html file
+     run: cat index.html
