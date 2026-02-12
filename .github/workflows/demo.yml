@@ -1,0 +1,8 @@
+name: CI/CD pipeline on Ubuntu OS
+on: workflow_dispatch
+jobs:
+ demo:
+  runs-on: ubuntu-latest
+  steps:
+   - name: checking
+     run: echo "Hello"
