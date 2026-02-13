@@ -10,5 +10,5 @@ jobs:
   steps:
    - name: Connecting to Env 
      env:
-      APP_ENV: "prod"  #job level
+      APP_ENV: "prod"  #step level
      run: echo "App is connecting to $APP_ENV"
