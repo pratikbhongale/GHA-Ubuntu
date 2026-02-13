@@ -14,4 +14,4 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Deploy the app
-       run: echo "we are deploying.... ${ needs.build.outputs.version }}"
+       run: echo "we are deploying.... ${{ needs.build.outputs.version }}"
