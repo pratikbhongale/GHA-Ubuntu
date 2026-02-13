@@ -12,3 +12,5 @@ jobs:
       echo "The branch is ${{ github.ref_name }}"
    - name: print all variable under github
      run: echo "${{ toJson(github) }}"
+   - name: Print all the environment variables
+     run: echo "$GITHUB_SHA"
