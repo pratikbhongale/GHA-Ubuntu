@@ -9,3 +9,5 @@ jobs:
      run: |
       echo "This workflow is triggered by ${{ github.actor }}"
       echo "The repository name ${{ github.repository }}"
+   - name: print all variable under github
+     run: echo "${{ toJson(github) }}"
