@@ -1,0 +1,15 @@
+name: If condition demo
+on:
+ push:
+   branches:
+    - main
+    - develop
+jobs:
+ demo:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Run this on main branch
+     if: github.ref_name == 'main'
+     run: echo "Running this on main branch"
+   - name: Run this step
+     run: echo "Running this step"
