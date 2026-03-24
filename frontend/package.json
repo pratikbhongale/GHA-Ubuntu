@@ -1,0 +1,17 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "lint:js": "eslint script.js",
+    "lint:html": "npx htmlhint index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "htmlhint": "^1.9.2"
+  }
+}
